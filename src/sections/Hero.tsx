@@ -1,7 +1,7 @@
 "use client"
 
 import ArrowIcon from "@/assets/arrow-right.svg";
-import cogImage from "@/assets/cog.png" ;
+import cogImage from "@/assets/images/hero-banner.png" ;
 import cylinderImage from "@/assets/cylinder.png";
 import noodleImage from"@/assets/noodle.png";
 import {motion, useScroll} from 'framer-motion';
@@ -20,23 +20,22 @@ export const Hero = () => {
   return (
     <section 
       ref={heroRef} 
-      className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,_#183EC2,_#EAEEFE_90%)] overflow-x-clip">
+      className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%100%_at_bottom_left,#183EC2,_#EAEEFE_90%)] overflow-x-clip">
       <div className="container">
         <div className="md:flex items-center">
           <div className="md:w-[478px]">
             <div className="tag"> 
-              Empowered By AI
+            Mastering Dental Excellence
             </div>
             <h1 className="text-5xl md:text-7xl py-2 font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">
-              Think Big, We make IT, possible! 
+            Precision in Care, Innovation in Smile
             </h1>
             <p className="text-xl text-[#010D3E] tracking-tight mt-6">
-            From innovative web solutions to immersive AR/VR experiences and Startup Consultancy, we help businesses thrive in the digital age. 
-            </p>
+            From advanced dental care to cutting-edge equipment manufacturing, we create healthier smiles with precision and innovation. Experience excellence in dentistry with our trusted expertise.            </p>
             <div className="flex gap-1 items-center mt-[30px]">
-              <a href="#services" ><button className="btn btn-primary" > Our Services </button></a>
+              <a href="#services" ><button className="btn btn-primary" > Shop Now </button></a>
               <button className="btn btn-text gap-1">
-              <Link href="/AboutUsPage"><span>Learn more</span></Link>
+              <Link href="/AboutUsPage"><span>Our Services</span></Link>
                 
                 <ArrowIcon className="h-5 w-5"></ArrowIcon>
               </button>
@@ -46,7 +45,7 @@ export const Hero = () => {
             <motion.img 
               src={cogImage.src} 
               alt="Cog Image" 
-              className="md:absolute md:h-full md:w-auto md:max-w-none md:left-6  lg:left-0"
+              className="md:absolute md:h-full md:w-auto md:max-w-none md:left-2  lg:left-50"
               animate={{
                 translateY:[-30,30]
               }}

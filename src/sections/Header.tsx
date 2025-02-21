@@ -24,7 +24,7 @@ export const Header = () => {
           <div className='flex items-center gap-3'>
             <Image src={newlogo} alt='logo' height={40} width={40} />
             <Link href='/'>
-              <h6 className='text-3xl font-bold'>SketchitUp</h6>
+              <h6 className='text-3xl font-bold'>GurOm Dental</h6>
             </Link>
           </div>
 
