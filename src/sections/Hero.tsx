@@ -60,26 +60,7 @@ export const Hero = () => {
                 ease: "easeInOut",
               }}
             />
-            <motion.img
-              src={cylinderImage.src}
-              width={220}
-              height={220}
-              alt="Cylinder image"
-              className="hidden md:block -top-8 -left-32 md:absolute"
-              style={{
-                translateY: translateY,
-              }}
-            />
-            <motion.img
-              src={noodleImage.src}
-              width={220}
-              alt="Noodle image"
-              className="hidden lg:block absolute top-[524px] left-[448px] rotate-[30deg]"
-              style={{
-                rotate: 30,
-                translateY: translateY,
-              }}
-            />
+            
           </div>
         </div>
       </div>
