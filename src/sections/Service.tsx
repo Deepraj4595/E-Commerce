@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 // Import images/icons
 import DentalClinicsImg from '@/assets/images/Dental_Clinics_2.png';
-import DentalLabImg from '@/assets/images/service-icon-2.png';
+import DentalLabImg from '@/assets/images/Dental_Lab_2.png';
 import DentalMaterialImg from '@/assets/images/Dental_Material_Trading.png';
-import DentalEquipmentImg from '@/assets/images/service-icon-4.png';
+import DentalEquipmentImg from '@/assets/images/Dental Equipment Manufacturing.jpeg';
 import CenterImage from '@/assets/images/service-banner.png';
 
 const services = [
@@ -16,10 +16,10 @@ const services = [
     pageurl: "/dental-clinics",
   },
   {
-    title: "Dental Lab",
-    image: DentalLabImg,
-    description: "Information about lab services for clinics.",
-    pageurl: "/dental-lab",
+    title: "Dental Equipment Manufacturing",
+    image: DentalEquipmentImg,
+    description: "Description of in-house manufacturing capabilities.",
+    pageurl: "/dental-equipment-manufacturing",
   },
   {
     title: "Dental Material Trading",
@@ -28,10 +28,10 @@ const services = [
     pageurl: "/dental-material-trading",
   },
   {
-    title: "Dental Equipment Manufacturing",
-    image: DentalEquipmentImg,
-    description: "Description of in-house manufacturing capabilities.",
-    pageurl: "/dental-equipment-manufacturing",
+    title: "Dental Lab",
+    image: DentalLabImg,
+    description: "Information about lab services for clinics.",
+    pageurl: "/dental-lab",
   },
 ];
 
