@@ -1,4 +1,6 @@
+import AboutUs from "@/sections/AboutUs";
 import { CallToAction } from "@/sections/CallToAction";
+import DoctorsSection from "@/sections/DoctorsSection";
 import { Footer } from "@/sections/Footer";
 import { Header } from "@/sections/Header";
 import { Hero } from "@/sections/Hero"; 
@@ -15,7 +17,8 @@ export default function Home() {
     {/* <section id="services">   <Pricing></Pricing>   </section> */}
     {/* <ProductShowcase></ProductShowcase>     */}
     <Service></Service>
-    <Shop></Shop>
+    <AboutUs></AboutUs>
+    <DoctorsSection></DoctorsSection>
     <CallToAction></CallToAction>
     <section id="Footer"><Footer></Footer></section>
   </>);
