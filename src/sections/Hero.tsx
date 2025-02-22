@@ -1,7 +1,7 @@
 "use client"
 
 import ArrowIcon from "@/assets/arrow-right.svg";
-import cogImage from "@/assets/images/hero-banner.png" ;
+import cogImage from "@/assets/images/Hero_Banner_1.png" ;
 import cylinderImage from "@/assets/cylinder.png";
 import noodleImage from"@/assets/noodle.png";
 import {motion, useScroll} from 'framer-motion';

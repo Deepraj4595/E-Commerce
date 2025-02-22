@@ -1,7 +1,7 @@
 import { CallToAction } from "@/sections/CallToAction";
 import { Footer } from "@/sections/Footer";
 import { Header } from "@/sections/Header";
-import { Hero } from "@/sections/Hero";
+import { Hero } from "@/sections/Hero"; 
 // import { Pricing } from "@/sections/Services";
 import { ProductShowcase } from "@/sections/ProductShowcase";
 import Service from "@/sections/Service";

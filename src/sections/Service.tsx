@@ -2,9 +2,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 // Import images/icons
-import DentalClinicsImg from '@/assets/images/service-icon-1.png';
+import DentalClinicsImg from '@/assets/images/Dental_Clinics_2.png';
 import DentalLabImg from '@/assets/images/service-icon-2.png';
-import DentalMaterialImg from '@/assets/images/service-icon-3.png';
+import DentalMaterialImg from '@/assets/images/Dental_Material_Trading.png';
 import DentalEquipmentImg from '@/assets/images/service-icon-4.png';
 import CenterImage from '@/assets/images/service-banner.png';
 
