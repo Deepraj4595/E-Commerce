@@ -49,7 +49,7 @@ export default function AboutUs() {
 
           {/* Buttons */}
           <div className="mt-8 flex gap-6">
-            <a href="#services">
+            <a href="/AboutUsPage">
               <button className="btn btn-primary px-6 py-3 text-lg font-semibold"> Learn More </button>
             </a>
             
