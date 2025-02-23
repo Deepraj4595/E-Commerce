@@ -83,31 +83,28 @@ const DoctorsSection = () => {
       </div>
 
     {/* Our Expertise Section */}
-<div className="mt-16 text-center">
+{/* <div className="mt-16 text-center">
   <h3 className="text-blue-600 font-bold uppercase">Our Expertise</h3>
   <h2 className="text-3xl font-bold text-gray-900 mt-2">
     Delivering Excellence in Dental Care
   </h2>
-</div>
+</div> */}
 
 {/* Expertise Grid */}
-<div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+{/* <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
   {expertise.map((item, index) => (
     <div
       key={index}
       className="bg-white shadow-lg rounded-lg p-6 text-center transition transform hover:scale-105"
     >
-      {/* Icon */}
       <item.icon className="w-12 h-12 mx-auto text-blue-600 mb-4" />
-      
-      {/* Title */}
+
       <h3 className="text-xl font-semibold text-gray-800">{item.title}</h3>
-      
-      {/* Description */}
+
       <p className="text-gray-600 mt-3">{item.description}</p>
     </div>
   ))}
-</div>
+</div> */}
     </section>
   );
 };

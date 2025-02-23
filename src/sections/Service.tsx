@@ -79,8 +79,13 @@ const Service = () => {
                 <p className="text-gray-500 text-sm mt-1">{description}</p>
               </div>
             ))}
-          </div>
+          </div>  
         </div>
+        <div className="flex justify-center items-center mt-10">
+            <Link href="/ServicesPage">
+              <button className="btn btn-primary">Our Services</button>
+            </Link>
+          </div>
       </div>
     </section>
   );

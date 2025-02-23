@@ -19,6 +19,7 @@ export default function Home() {
     <Service></Service>
     <AboutUs></AboutUs>
     <DoctorsSection></DoctorsSection>
+    <Shop></Shop>
     <CallToAction></CallToAction>
     <section id="Footer"><Footer></Footer></section>
   </>);
