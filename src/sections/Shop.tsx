@@ -3,28 +3,28 @@
 import Image from "next/image";
 
 // Sample product images
-import DentalMaterialImg from "@/assets/images/service-icon-1.png";
-import DentalEquipmentImg from "@/assets/images/service-icon-1.png";
-import FeaturedProductImg from "@/assets/images/service-icon-1.png";
+import DentalMaterialImg from "@/assets/images/product-2.jpg";
+import DentalEquipmentImg from "@/assets/images/product-3.jpg";
+import FeaturedProductImg from "@/assets/images/product-4.jpg";
 
 const Shop = () => {
   const products = [
     {
       id: 1,
       name: "Dental Cleaning Kit",
-      price: "$50",
+      price: "₹2500",
       image: DentalMaterialImg,
     },
     {
       id: 2,
       name: "Advanced Dental Chair",
-      price: "$2000",
+      price: "₹200000",
       image: DentalEquipmentImg,
     },
     {
       id: 3,
       name: "Professional Dental Tools",
-      price: "$120",
+      price: "₹12000",
       image: FeaturedProductImg,
     },
   ];

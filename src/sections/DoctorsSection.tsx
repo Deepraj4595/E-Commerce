@@ -8,7 +8,7 @@ import { ShieldCheck, Smile, Stethoscope, Heart, Star  } from "lucide-react";
 
 const doctors = [
   {
-    name: "Howard Holmes",
+    name: "Dr. Rajesh P",
     specialty: "Dentist",
     image: "/assets/images/doctor-1.png", // Replace with actual image path
   },
@@ -43,7 +43,7 @@ const DoctorsSection = () => {
     <section className="py-12 px-6 md:px-12 bg-[radial-gradient(ellipse_200%100%_at_bottom_left,#87CEEB,_#FFFFFF_90%)] overflow-x-clip">
       {/* Section Heading */}
       <div className="text-center">
-        <h3 className="text-blue-600 font-bold uppercase">Our Doctor</h3>
+        <h3 className="text-blue-600 font-bold uppercase">Testimonials</h3>
         <h2 className="text-4xl font-bold text-gray-900 mt-2">
           Best Expert Dentist
         </h2>

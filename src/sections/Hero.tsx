@@ -1,76 +1,82 @@
 "use client"
 
 import ArrowIcon from "@/assets/arrow-right.svg";
-import cogImage from "@/assets/images/Hero_Banner_1.png" ;
-import cylinderImage from "@/assets/cylinder.png";
-import noodleImage from"@/assets/noodle.png";
-import {motion, useScroll} from 'framer-motion';
+import cogImage from "@/assets/images/Hero_Banner_1.png";
+import banner from "@/assets/images/banneer3.png"
+import overviewImage from "@/assets/images/overview.png"; // Add the new image here
+import { motion, useScroll } from 'framer-motion';
 import Link from 'next/link';
-
-
 import Image from "next/image";
 import { useRef } from "react";
 
 export const Hero = () => {
   const heroRef = useRef(null);
-  const { scrollYProgress} = useScroll({
+  const { scrollYProgress } = useScroll({
     target: heroRef,
     offset: ["start end", "end start"],
   });
+
   return (
-    <section 
-      ref={heroRef} 
-      className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%100%_at_bottom_left,#87CEEB,_#FFFFFF_90%)] overflow-x-clip">
+    <section
+      ref={heroRef}
+      className="pt-8 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%100%_at_bottom_left,#87CEEB,_#FFFFFF_90%)] overflow-x-clip"
+    >
       <div className="container">
         <div className="md:flex items-center">
           <div className="md:w-[478px]">
-            <div className="tag"> 
-            Mastering Dental Excellence
+            <div className="tag">
+              Mastering Dental Excellence
             </div>
-            <h1 className="text-5xl md:text-7xl py-2 font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">
-            Precision in Care, Innovation in Smile
+            <h1 className="text-4xl md:text-6xl py-2 font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">
+              "Welcome to GurOm Dental"
             </h1>
             <p className="text-xl text-[#010D3E] tracking-tight mt-6">
-            From advanced dental care to cutting-edge equipment manufacturing, we create healthier smiles with precision and innovation. Experience excellence in dentistry with our trusted expertise.            </p>
+              Your trusted partner in dental solutions. From advanced dental care to premium dental materials and equipment, we are here to bring excellence to your clinic and beyond.
+            </p>
             <div className="flex gap-1 items-center mt-[30px]">
-              <a href="#services" ><button className="btn btn-primary" > Shop Now </button></a>
+              <a href="#services"><button className="btn btn-primary"> Shop Now </button></a>
               <button className="btn btn-text gap-1">
-              <Link href="/AboutUsPage"><span>Our Services</span></Link>
-                
+                <Link href="/AboutUsPage"><span>Our Services</span></Link>
                 <ArrowIcon className="h-5 w-5"></ArrowIcon>
               </button>
             </div>
           </div>
-          <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative">
-            <motion.img 
-              src={cogImage.src} 
-              alt="Cog Image" 
-              className="md:absolute md:h-full md:w-auto md:max-w-none md:left-2  lg:left-50"
+          <div className="mt-20 md:mt-0 md:h-[550px] md:flex-1 relative">
+            <motion.img
+              src={banner.src}
+              alt="Cog Image"
+              className="md:absolute md:h-full md:w-auto md:max-w-none md:-right-32 lg:left-50"
               animate={{
-                translateY:[-30,30]
+                translateY: [-10, 10]
               }}
               transition={{
                 repeat: Infinity,
-                repeatType:"mirror",
-                duration: 3,
+                repeatType: "mirror",
+                duration: 8,
                 ease: "easeInOut",
               }}
-              ></motion.img>
-            {/* <Image 
-            src={cylinderImage}
-            alt="cylinder image"
-            width={220}
-            height={220}
-            className="hidden md:block -top-8 -left-32 md:absolute"
-            ></Image> */}
-            {/* <Image
-            src={noodleImage}
-            width={220}
-            alt="noodleImage"
-            className=" hidden lg:block absolute top-[524px] left-[440px] rotate-[30deg]"
-            ></Image> */}
+            ></motion.img>
           </div>
         </div>
+
+        {/* New Section */}
+        {/* <div className="md:flex items-center mt-20">
+          <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative">
+            <Image
+              src={cogImage}
+              alt="Overview Image"
+              className="md:absolute md:h-full md:w-auto md:max-w-none md:left-2 lg:left-50"
+            />
+          </div>
+          <div className="md:w-[478px]">
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">
+              Brief Overview
+            </h2>
+            <p className="text-xl text-[#010D3E] tracking-tight mt-6">
+              GurOm Dental is a multifaceted dental solutions provider based in Pune. From world-class dental clinics and dental labs to premium dental materials trading and innovative equipment manufacturing, we are dedicated to delivering comprehensive, high-quality solutions for dental professionals and patients alike.
+            </p>
+          </div>
+        </div> */}
       </div>
     </section>
   );

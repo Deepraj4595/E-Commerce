@@ -40,11 +40,11 @@ export const Header = () => {
           <nav className="hidden md:flex gap-6 text-black items-center font-semibold">
             <a href="/#home">Home</a>
             <a href="/#services">Our Services</a>
-            <Link href="/Blog_Page">Blog</Link>
+            <Link href="/Blog_Page">Contact</Link>
             <Link href="/AboutUsPage">About Us</Link>
-            <Link href="/GetInTouchPage">
+            <Link href="/ContactUsPage">
               <button className="bg-black text-white px-4 py-2 rounded-lg font-medium tracking-tight">
-                Get in touch
+                Shop Now
               </button>
             </Link>
           </nav>
@@ -56,11 +56,11 @@ export const Header = () => {
         <nav className="md:hidden flex flex-col items-center rounded-lg gap-4 p-5 bg-white shadow-md fixed top-16 right-0 w-[50%] z-10">
           <a href="/#home" onClick={toggleMenu}>Home</a>
           <a href="/#services" onClick={toggleMenu}>Our Services</a>
-          <Link href="/Blog_Page" onClick={toggleMenu}>Blog</Link>
+          <Link href="/Blog_Page" onClick={toggleMenu}>Contact</Link>
           <Link href="/AboutUsPage" onClick={toggleMenu}>About</Link>
           <Link href="/GetInTouchPage">
             <button className="bg-black text-white px-4 py-2 rounded-lg font-medium tracking-tight w-full">
-              Get in touch
+            Shop Now
             </button>
           </Link>
         </nav>
