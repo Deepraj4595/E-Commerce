@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import ArrowRight from '@/assets/arrow-right.svg';
-import newlogo from '@/assets/Sketchitup-logon.jpg';
+import newlogo from '@/assets/images/logo11.png'
 import Image from 'next/image';
 import MenuIcon from '@/assets/menu.svg';
 import CloseIcon from '@/assets/close.svg'; 
@@ -21,7 +21,7 @@ export const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo Section */}
           <div className="flex items-center gap-3">
-            <Image src={newlogo} alt="logo" height={40} width={40} />
+            <Image src={newlogo} alt="logo" height={50} width={50} />
             <Link href="/">
               <h6 className="text-3xl font-bold">GurOm Dental</h6>
             </Link>
@@ -39,10 +39,10 @@ export const Header = () => {
           {/* Navigation for larger screens */}
           <nav className="hidden md:flex gap-6 text-black items-center font-semibold">
             <a href="/#home">Home</a>
-            <a href="/#services">Our Services</a>
-            <Link href="/Blog_Page">Contact</Link>
+            <a href="/#service">Our Services</a>
             <Link href="/AboutUsPage">About Us</Link>
-            <Link href="/ContactUsPage">
+            <Link href="/ContactUsPage">Contact</Link>
+            <Link href="/#">
               <button className="bg-black text-white px-4 py-2 rounded-lg font-medium tracking-tight">
                 Shop Now
               </button>
@@ -55,10 +55,10 @@ export const Header = () => {
       {menuOpen && (
         <nav className="md:hidden flex flex-col items-center rounded-lg gap-4 p-5 bg-white shadow-md fixed top-16 right-0 w-[50%] z-10">
           <a href="/#home" onClick={toggleMenu}>Home</a>
-          <a href="/#services" onClick={toggleMenu}>Our Services</a>
-          <Link href="/Blog_Page" onClick={toggleMenu}>Contact</Link>
-          <Link href="/AboutUsPage" onClick={toggleMenu}>About</Link>
-          <Link href="/GetInTouchPage">
+          <a href="/#service" onClick={toggleMenu}>Our Services</a>
+          <Link href="/AboutUsPage" onClick={toggleMenu}>About Us</Link>
+          <Link href="/ContactUsPage" onClick={toggleMenu}>Contact</Link>
+          <Link href="/#">
             <button className="bg-black text-white px-4 py-2 rounded-lg font-medium tracking-tight w-full">
             Shop Now
             </button>

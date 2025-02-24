@@ -5,7 +5,7 @@ import { Header } from "@/sections/Header";
 import { Footer } from "@/sections/Footer";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import DentalClinicsImg from "@/assets/images/Dental_Clinics_2.png";
+import DentalClinicsImg from "@/assets/images/service-home1.png";
 import DentalLabImg from "@/assets/images/Dental_Lab_2.png";
 import DentalMaterialImg from "@/assets/images/Dental_Material_Trading.png";
 import DentalEquipmentImg from "@/assets/images/Dental Equipment Manufacturing.jpeg";
@@ -24,8 +24,11 @@ const ServicesPage = () => {
                 Our Dental Services
               </h1>
               <p className="text-xl text-[#010D3E] tracking-tight mt-6">
-                Experience top-tier dental care, manufacturing, and trading with GurOm Dental.
+              Experience top-tier dental care, manufacturing, and trading with GurOm Dental. From cutting-edge dental technology to premium materials, we provide comprehensive solutions for professionals and patients alike. Trust us for innovation, quality, and excellence in every aspect of dental care.
               </p>
+              <div className="flex gap-1 items-center pt-10">
+            <a href="#services"><button className="btn btn-primary"> Our Services </button></a>
+          </div>
             </div>
             <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative">
               <Image
@@ -35,15 +38,12 @@ const ServicesPage = () => {
               />
             </div>
           </div>
-          <div className="flex gap-1 items-center ">
-            <a href="#services"><button className="btn btn-primary"> Our Services </button></a>
-          </div>
+          
         </div>
       </section>
-      <DentalServicesSection></DentalServicesSection>
-  
-
-      <Footer />
+      <section id="services"><DentalServicesSection></DentalServicesSection></section>
+      
+        <Footer />
     </div>
   );
 };

@@ -16,7 +16,7 @@ export default function Home() {
     <section id="home">     <Hero ></Hero>   </section>
     {/* <section id="services">   <Pricing></Pricing>   </section> */}
     {/* <ProductShowcase></ProductShowcase>     */}
-    <Service></Service>
+    <section id="service"><Service></Service></section>
     <AboutUs></AboutUs>
     <DoctorsSection></DoctorsSection>
     <Shop></Shop>

@@ -18,7 +18,7 @@ export const Footer = () => {
         <div className="flex flex-col lg:flex-row justify-between">
           {/* Left Column */}
           <div className="mb-6 lg:mb-0 sm:mt-10">
-            <h2 className="text-white font-semibold text-2xl">SketchitUp</h2>
+            <h2 className="text-white font-semibold text-2xl">GurOm Dental</h2>
             <p className="mt-2">Empowering Businesses</p>
             {/* <div className="mt-4 flex">
               <input
@@ -40,11 +40,6 @@ export const Footer = () => {
                 <li>
                   <a href="/#" className="hover:underline">
                     Home
-                  </a>
-                </li>
-                <li>
-                  <a href="/Blog_Page" className="hover:underline">
-                    Blog
                   </a>
                 </li>
                 <li>
@@ -70,7 +65,7 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="/GetInTouchPage" className="hover:underline">
+                  <a href="/ContactUsPage" className="hover:underline">
                     Contact Us
                   </a>
                 </li>
@@ -79,11 +74,7 @@ export const Footer = () => {
                     Privacy Policy
                   </a>
                 </li>
-                <li>
-                  <a href="#" className="hover:underline">
-                    Terms & Condition
-                  </a>
-                </li>
+                
                 
               </ul>
             </div>
@@ -93,14 +84,14 @@ export const Footer = () => {
           <div>
             <h3 className="text-white sm:mt-10 font-semibold mb-2 text-xl">Contact Us</h3>
             <ul className="space-y-2">
-              <li>Phone: +91 95612 80118</li>
+              <li>Phone: +91 124567890</li>
               <li>
                 Email:{" "}
                 <a
-                  href="mailto:a19nikhil5@gmail.com"
+                  href="mailto: info@guromdental.com"
                   className="hover:underline text-blue-400"
                 >
-                  sketchitup.official@gmail.com
+                   info@guromdental.com
                 </a>
               </li>
             </ul>

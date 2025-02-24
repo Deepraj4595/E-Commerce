@@ -27,11 +27,8 @@ export const CallToAction = () => {
           <div className="md:flex items-start">
             <div className="md:w-1/2">
               <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-black mb-4">
-                Company Details
+              GurOm Dental
               </h2>
-              <p className="text-3xl text-gray-700 mb-2">
-                <strong> GurOm Dental</strong>
-              </p>
               <p className="text-lg text-gray-700 mb-2">
               Visit us at our main office on JM Road, <br></br>  Shivajinagar, Pune - 411045
               </p>
@@ -46,7 +43,7 @@ export const CallToAction = () => {
               <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-black mb-4">
                 Our Location
               </h2>
-              <div className="w-[80%] h-64">
+              <div className="w-[80%] h-64 rounded-md">
                 <iframe
                   src="https://maps.google.com/maps?q=Row%20House%20No.%20D3,%20Ahilyadevi%20society,%20Baner,%20Pune%20-%20411045&t=&z=13&ie=UTF8&iwloc=&output=embed"
                   width="100%"

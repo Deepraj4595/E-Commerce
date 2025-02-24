@@ -17,9 +17,10 @@ export const Hero = () => {
   });
 
   return (
+    <div>
     <section
       ref={heroRef}
-      className="pt-8 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%100%_at_bottom_left,#87CEEB,_#FFFFFF_90%)] overflow-x-clip"
+      className="pt-8 md:pt-5 md:pb-2 bg-[radial-gradient(ellipse_200%100%_at_bottom_left,#87CEEB,_#FFFFFF_90%)] overflow-x-clip"
     >
       <div className="container">
         <div className="md:flex items-center">
@@ -28,15 +29,15 @@ export const Hero = () => {
               Mastering Dental Excellence
             </div>
             <h1 className="text-4xl md:text-6xl py-2 font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">
-              "Welcome to GurOm Dental"
+              Welcome to GurOm Dental
             </h1>
             <p className="text-xl text-[#010D3E] tracking-tight mt-6">
               Your trusted partner in dental solutions. From advanced dental care to premium dental materials and equipment, we are here to bring excellence to your clinic and beyond.
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
-              <a href="#services"><button className="btn btn-primary"> Shop Now </button></a>
+              <a href="/#"><button className="btn btn-primary"> Shop Now </button></a>
               <button className="btn btn-text gap-1">
-                <Link href="/AboutUsPage"><span>Our Services</span></Link>
+                <Link href="/#service"><span>Our Services</span></Link>
                 <ArrowIcon className="h-5 w-5"></ArrowIcon>
               </button>
             </div>
@@ -77,7 +78,28 @@ export const Hero = () => {
             </p>
           </div>
         </div> */}
+
       </div>
     </section>
+     <section>
+     <div>
+        <div className="max-w-[850px] mt-20 mx-auto ">
+          <h2 className="text-center  text-3xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">
+          Transforming Dental Care with <b>GurOm Dental</b> :
+          Clinics, Labs, Premium Materials, and Cutting-Edge Equipment
+          </h2>
+          <p className="text-center my-5 text-[22px] leading-[30px] tracking-tight text-[#020D3E]">
+          GurOm Dental is a multifaceted dental solutions provider based in Pune. From world-class 
+dental clinics and dental labs to premium dental materials trading and innovative 
+equipment manufacturing, we are dedicated to delivering comprehensive, high-quality 
+solutions for dental professionals and patients alike. </p>
+
+          <div className="flex justify-center">
+            <div className="tag">Experience the Future of Dentistry with Us!</div>
+          </div>
+        </div>
+      </div>
+      </section>     
+    </div>
   );
 };
