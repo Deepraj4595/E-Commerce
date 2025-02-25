@@ -163,7 +163,7 @@ const AboutUsPage = () => {
             >
               <div className="w-16 h-16 flex items-center justify-center bg-yellow-400 text-black text-3xl font-bold rounded-full shadow-lg"></div>
               <p className="text-xl font-semibold text-gray-200">
-                ISO Certified Dental Labs – 2020
+                ISO Certified Dental Labs (2020)
               </p>
             </motion.div>
 
@@ -178,7 +178,7 @@ const AboutUsPage = () => {
                 🎖
               </div>
               <p className="text-xl font-semibold text-gray-200">
-                Pune’s Most Innovative Dental Service Provider – 2022
+                Pune&apos;s Most Innovative Dental Service Provider (2022)
               </p>
             </motion.div>
           </div>
@@ -212,11 +212,8 @@ const AboutUsPage = () => {
           <div className="md:flex items-start">
             <div className="md:w-1/2">
               <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-black mb-4">
-                Company Details
+              GurOm Dental
               </h2>
-              <p className="text-3xl text-gray-700 mb-2">
-                <strong> GurOm Dental</strong>
-              </p>
               <p className="text-lg text-gray-700 mb-2">
                 Visit us at our main office on JM Road, <br></br> Shivajinagar,
                 Pune - 411045
