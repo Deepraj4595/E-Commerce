@@ -2,7 +2,7 @@
 
 import ArrowIcon from "@/assets/arrow-right.svg";
 import cogImage from "@/assets/images/Hero_Banner_1.png";
-import banner from "@/assets/images/banneer3.png"
+import banner from "@/assets/images/Hero_Banner_a1.png"
 import overviewImage from "@/assets/images/overview.png"; // Add the new image here
 import { motion, useScroll } from 'framer-motion';
 import Link from 'next/link';
