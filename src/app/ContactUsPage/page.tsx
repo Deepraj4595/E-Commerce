@@ -14,8 +14,8 @@ const ContactUsPage = () => {
   return (
     <div>
       <Header />
-      <section className="pt-8 pb-0 bg-gradient-to-b from-white to-[#87CEEB] overflow-x-clip">
-        <div className="container max-w-[1200px] mx-auto px-4">
+      <section className="pt-8 pb-0 md:-mt-28 bg-gradient-to-b from-white to-[#87CEEB] overflow-x-clip">
+        <div className="container  max-w-[1200px] mx-auto px-4">
           <div className="md:flex items-center">
             <div className="md:w-1/2">
               <h1 className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">
@@ -34,7 +34,7 @@ const ContactUsPage = () => {
 
             </div>
             
-            <div className="mt-20 md:mt-0 md:h-[800px] md:flex-1 relative left-10">
+            <div className="mt-20 md:mt-0 md:h-[800px] md:flex-1 relative md:left-10 top-10">
               <Image
                 src={contact}
                 width={1400}
@@ -50,24 +50,30 @@ const ContactUsPage = () => {
 
       
 
-      {/* Inquiry Form */}
-      <section className="py-4 bg-gradient-to-b from-[#87CEEB] to-[#FFFFFF]">
-        <div className="container max-w-[800px] mx-auto px-4">
-          <h2 className="text-center text-4xl md:text-6xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">
+{/* Inquiry Form */}
+<section id="inquiryform" className="py-12 bg-gradient-to-t from-[#b4d1f7] to-[#FFFFFF] flex justify-center items-center">
+        <div className="container max-w-[800px] mx-auto px-6 bg-white shadow-xl rounded-xl p-10 border-gray-1000">
+          <h2 className="text-center text-4xl md:text-6xl font-extrabold tracking-tight bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">
             Inquiry Form
           </h2>
-          <form className="mt-12 space-y-6">
+          <p className="text-center text-lg text-gray-600 mt-4">
+            Have any questions? Fill out the form below and we'll get back to you soon.
+          </p>
+          <form className="mt-12 space-y-8">
+            <input type="tel" placeholder="Name" className="p-4 border border-gray-300 rounded-lg w-full focus:outline-none focus:ring-4 focus:ring-blue-500 shadow-sm transition duration-200" />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <input type="text" placeholder="Name" className="p-4 border border-gray-300 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500" />
-              <input type="email" placeholder="Email" className="p-4 border border-gray-300 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500" />
+              <input type="text" placeholder="Email" className="p-4 border border-gray-300 rounded-lg w-full focus:outline-none focus:ring-4 focus:ring-blue-500 shadow-sm transition duration-200" />
+              <input type="email" placeholder="Contact Number" className="p-4 border border-gray-300 rounded-lg w-full focus:outline-none focus:ring-4 focus:ring-blue-500 shadow-sm transition duration-200" />
             </div>
             <textarea
               placeholder="Message"
-              className="p-4 border border-gray-300 rounded-lg w-full h-40 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="p-4 border border-gray-300 rounded-lg w-full h-40 focus:outline-none focus:ring-4 focus:ring-blue-500 shadow-sm transition duration-200"
             ></textarea>
-            <button type="submit" className="w-full md:w-auto px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">
+            <div className="flex justify-center">
+            <button type="submit" className="w-full md:w-auto px-8 py-3 bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold rounded-lg shadow-lg hover:opacity-90 transition duration-300">
               Submit
             </button>
+            </div>
           </form>
         </div>
       </section>
