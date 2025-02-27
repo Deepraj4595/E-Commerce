@@ -14,12 +14,10 @@ export default function Home() {
   <>
     <Header></Header>
     <section id="home">     <Hero ></Hero>   </section>
-    {/* <section id="services">   <Pricing></Pricing>   </section> */}
-    {/* <ProductShowcase></ProductShowcase>     */}
     <section id="service"><Service></Service></section>
-    <AboutUs></AboutUs>
-    <DoctorsSection></DoctorsSection>
-    <Shop></Shop>
+    <Shop></Shop> 
+     <AboutUs></AboutUs>    
+     {/* <DoctorsSection></DoctorsSection> */}
     <CallToAction></CallToAction>
     <section id="Footer"><Footer></Footer></section>
   </>);

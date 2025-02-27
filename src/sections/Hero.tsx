@@ -22,8 +22,8 @@ export const Hero = () => {
       ref={heroRef}
       className="pt-8 md:pt-5 md:pb-2 bg-[radial-gradient(ellipse_200%100%_at_bottom_left,#87CEEB,_#FFFFFF_90%)] overflow-x-clip"
     >
-      <div className="container">
-        <div className="md:flex items-center">
+      <div className="container ">
+        <div className="md:flex items-center ">
           <div className="md:w-[478px]">
             <div className="tag">
               Mastering Dental Excellence

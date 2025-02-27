@@ -14,8 +14,8 @@ const ContactUsPage = () => {
   return (
     <div>
       <Header />
-      <section className="pt-8 pb-0 bg-gradient-to-b from-white to-[#87CEEB] overflow-x-clip">
-        <div className="container max-w-[1200px] mx-auto px-4">
+      <section className="pt-8 pb-0 md:-mt-28 bg-gradient-to-b from-white to-[#87CEEB] overflow-x-clip">
+        <div className="container  max-w-[1200px] mx-auto px-4">
           <div className="md:flex items-center">
             <div className="md:w-1/2">
               <h1 className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">
@@ -34,7 +34,7 @@ const ContactUsPage = () => {
 
             </div>
             
-            <div className="mt-20 md:mt-0 md:h-[800px] md:flex-1 relative left-10">
+            <div className="mt-20 md:mt-0 md:h-[800px] md:flex-1 relative md:left-10 top-10">
               <Image
                 src={contact}
                 width={1400}

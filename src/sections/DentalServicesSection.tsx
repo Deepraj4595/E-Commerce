@@ -21,6 +21,22 @@ export default function DentalServicesSection() {
         </h1>
 
         <ServiceCard
+          image={DentalMaterialImg}
+          title="Dental Material Trading"
+          description="We supply top-quality dental materials, from impression compounds to restorative solutions, ensuring clinics and labs have everything needed for seamless operations."
+          services={["Impression Materials", "Dental Cements", "Restorative Materials", "Disposable Consumables"]}
+          buttonText="Shop Now"
+        />
+        
+        <ServiceCard
+          image={DentalEquipmentImg}
+          title="Dental Equipment Manufacturing"
+          description="Our engineers develop cutting-edge dental equipment, including ergonomic chairs and diagnostic tools, providing reliable solutions to enhance patient care."
+          services={["Dental Chairs and Units", "Imaging and Diagnostic Equipment", "Sterilization Systems", "Handpieces and Tools"]}
+          buttonText="Explore Products"
+        />
+
+        <ServiceCard
           image={DentalClinicImg}
           title="Dental Clinics"
           description="GurOm Dental Clinics offer advanced technology and expert care for all ages.From preventive check-ups to cosmetic and restorative treatments, we ensure a personalized, comfortable experience."
@@ -36,21 +52,9 @@ export default function DentalServicesSection() {
           buttonText="Partner With Us"
         />
 
-        <ServiceCard
-          image={DentalMaterialImg}
-          title="Dental Material Trading"
-          description="We supply top-quality dental materials, from impression compounds to restorative solutions, ensuring clinics and labs have everything needed for seamless operations."
-          services={["Impression Materials", "Dental Cements", "Restorative Materials", "Disposable Consumables"]}
-          buttonText="Shop Now"
-        />
+      
 
-        <ServiceCard
-          image={DentalEquipmentImg}
-          title="Dental Equipment Manufacturing"
-          description="Our engineers develop cutting-edge dental equipment, including ergonomic chairs and diagnostic tools, providing reliable solutions to enhance patient care."
-          services={["Dental Chairs and Units", "Imaging and Diagnostic Equipment", "Sterilization Systems", "Handpieces and Tools"]}
-          buttonText="Explore Products"
-        />
+        
       </div>
     </section>
   );
@@ -75,7 +79,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ image, title, description, se
           ))}
         </ul>
         <a
-          href="#"
+          href="/ContactUsPage"
           className="mt-6 px-6 py-3 bg-[#004b87] text-white font-semibold rounded-lg shadow-md hover:bg-[#003366] transition duration-300"
         >
           {buttonText}

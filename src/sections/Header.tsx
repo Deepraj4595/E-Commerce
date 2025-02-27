@@ -2,10 +2,10 @@
 
 import { useState } from 'react';
 import ArrowRight from '@/assets/arrow-right.svg';
-import newlogo from '@/assets/images/logo11.png'
+import newlogo from '@/assets/images/logo11.png';
 import Image from 'next/image';
-import MenuIcon from '@/assets/menu.svg';
-import CloseIcon from '@/assets/close.svg'; 
+import MenuIcon from '@/assets/Menu_.png';
+import CloseIcon from '@/assets/Menu_.png';
 import Link from 'next/link';
 
 export const Header = () => {
@@ -39,7 +39,7 @@ export const Header = () => {
           {/* Navigation for larger screens */}
           <nav className="hidden md:flex gap-6 text-black items-center font-semibold">
             <a href="/#home">Home</a>
-            <a href="/#service">Our Services</a>
+            <a href="/ServicesPage">Our Services</a>
             <Link href="/AboutUsPage">About Us</Link>
             <Link href="/ContactUsPage">Contact</Link>
             <Link href="/#">
@@ -55,12 +55,12 @@ export const Header = () => {
       {menuOpen && (
         <nav className="md:hidden flex flex-col items-center rounded-lg gap-4 p-5 bg-white shadow-md fixed top-16 right-0 w-[50%] z-10">
           <a href="/#home" onClick={toggleMenu}>Home</a>
-          <a href="/#service" onClick={toggleMenu}>Our Services</a>
+          <a href="/ServicesPage" onClick={toggleMenu}>Our Services</a>
           <Link href="/AboutUsPage" onClick={toggleMenu}>About Us</Link>
           <Link href="/ContactUsPage" onClick={toggleMenu}>Contact</Link>
           <Link href="/#">
             <button className="bg-black text-white px-4 py-2 rounded-lg font-medium tracking-tight w-full">
-            Shop Now
+              Shop Now
             </button>
           </Link>
         </nav>

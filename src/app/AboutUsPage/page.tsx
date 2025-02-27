@@ -21,7 +21,7 @@ const AboutUsPage = () => {
         ref={aboutRef}
         className="relative pt-16 pb-24 bg-gradient-to-b from-white to-[#87CEEB] overflow-hidden"
       >
-        <div className="container mx-auto px-6 lg:px-16">
+        <div className="container -mt-8 mx-auto px-6 lg:px-16">
           <div className="md:flex items-center justify-end">
             {/* LEFT CONTENT */}
             <div className="lg:w-[55%] space-y-6">
@@ -32,7 +32,7 @@ const AboutUsPage = () => {
                 Established in 2019, GurOm Dental has rapidly grown into a
                 comprehensive dental solutions provider, catering to clinics,
                 labs, and dental professionals across India. Our goal is to
-                bring innovation and excellence to every aspect of dental care –
+                bring innovation and excellence to every aspect of dental care 
                 from clinic services to materials and equipment.
               </p>
               {/* CTA BUTTONS */}
@@ -56,8 +56,8 @@ const AboutUsPage = () => {
                 <Image
                   src={aboutImage}
                   alt="About Us Image"
-                  width={500}
-                  height={500}
+                  width={400}
+                  height={400}
                   className="drop-shadow-lg rounded-lg"
                 />
               </motion.div>
