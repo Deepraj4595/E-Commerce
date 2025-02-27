@@ -19,7 +19,7 @@ export const Footer = () => {
           {/* Left Column */}
           <div className="mb-6 lg:mb-0 sm:mt-10">
             <h2 className="text-white font-semibold text-2xl">GurOm Dental</h2>
-            <p className="mt-2">Empowering Businesses</p>
+            <p className="mt-2">Your Smile, Our Priority! </p>
             {/* <div className="mt-4 flex">
               <input
                 type="email"
@@ -50,8 +50,7 @@ export const Footer = () => {
                 
                 <li>
                   <a href="#" className="hover:underline">
-                    Testimonials
-                  </a>
+                    Shop Now                  </a>
                 </li>
                 
               </ul>
