@@ -57,7 +57,7 @@ const ContactUsPage = () => {
             Inquiry Form
           </h2>
           <p className="text-center text-lg text-gray-600 mt-4">
-            Have any questions? Fill out the form below and we'll get back to you soon.
+            Have any questions? Fill out the form below and we&apos;ll get back to you soon.
           </p>
           <form className="mt-12 space-y-8">
             <input type="tel" placeholder="Name" className="p-4 border border-gray-300 rounded-lg w-full focus:outline-none focus:ring-4 focus:ring-blue-500 shadow-sm transition duration-200" />

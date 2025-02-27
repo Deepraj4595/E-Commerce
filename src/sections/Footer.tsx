@@ -115,7 +115,7 @@ export const Footer = () => {
           <SocialPin />    
           <SocialYoutube />
         </div>
-        <p className="mt-6">&copy; 2024 SketchitUp, Inc. All rights reserved.</p>
+        <p className="mt-6">&copy; 2025 GurOm Dental, Inc. All rights reserved.</p>
       </div>
     </footer>
   );
